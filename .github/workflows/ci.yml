@@ -12,3 +12,13 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: mvn install -DskipTests
+
+jobs:
+  actions-tagger:
+    runs-on: windows-latest
+    steps:
+      - uses: Actions-R-Us/actions-tagger@latest
+        with:
+          publish_latest: true
+        env:
+          GITHUB_TOKEN: '${{secrets.TOKEN}}'
