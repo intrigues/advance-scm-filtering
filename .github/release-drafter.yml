@@ -1,0 +1,2 @@
+_extends: .github
+tag-template: advance-scm-filtering-$NEXT_MINOR_VERSION

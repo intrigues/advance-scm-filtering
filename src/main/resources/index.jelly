@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    This plugin will let you filter branch in git based on advanced parameters.
+</div>
